@@ -1,6 +1,11 @@
-修复完成！主要改进如下：
+# 使用 curl
+curl -s https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed.py | python3
 
-## 🔧 主要修复内容：
+# 或使用 wget
+wget -qO- https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed.py | python3
+
+
+## 🔧 主要更新内容：
 
 ### 1. **自动安装pip** 
 - 检测系统是否安装pip，如果没有会尝试多种方法自动安装
