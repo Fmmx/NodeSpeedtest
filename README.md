@@ -1,10 +1,10 @@
 # 使用 curl
+```curl -s https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed_v1.py | python3```
 ```curl -s https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed.py | python3```
 
-# 或使用 wget
+# 或 wget
+```wget -qO- https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed_v1.py | python3```
 ```wget -qO- https://raw.githubusercontent.com/Fmmx/nodespeedtest/refs/heads/main/node-speed-tester-fixed.py | python3```
-
-
 ## 🔧 主要更新内容：
 
 ### 1. **自动安装pip** 
